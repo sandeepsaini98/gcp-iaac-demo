@@ -6,7 +6,7 @@ variable "instance_name" {
   type = string
 }
 variable "machine_type" {
-  type  = string
+  type = string
 }
 variable "network_ip" {
   default = ""
@@ -15,7 +15,7 @@ variable "network_tier" {
   default = ""
 }
 variable "project_id" {
-  type  = string
+  type = string
 }
 variable "service_account_email" {
   type = string
@@ -23,7 +23,9 @@ variable "service_account_email" {
 variable "subnetwork_name" {
   default = ""
 }
-
+variable "zone" {
+  default = ""
+}
 variable "bucket_name" {}
 
 variable "prefix" {}
