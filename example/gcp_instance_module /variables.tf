@@ -23,3 +23,7 @@ variable "service_account_email" {
 variable "subnetwork_name" {
   default = ""
 }
+
+variable "bucket_name" {}
+
+variable "prefix" {}
