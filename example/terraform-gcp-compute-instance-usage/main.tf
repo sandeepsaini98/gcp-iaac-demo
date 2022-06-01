@@ -1,5 +1,5 @@
 module "gcp_instance" {
-  source                = "../../tf-modules/gcp_compute_engine"
+  source                = "../../tf-modules/terraform-gcp-compute-instance"
   boot_image            = var.boot_image
   instance_name         = var.instance_name
   machine_type          = var.machine_type
